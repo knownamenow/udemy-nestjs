@@ -5,7 +5,4 @@ import { TasksService } from './tasks.service';
 export class TasksController {
 	constructor(private taskService: TasksService) { }
 
-	helloWorld() {
-		this.taskService.
-	}
 }
